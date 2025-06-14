@@ -5,15 +5,36 @@ This project demonstrates a simple API built using **FastAPI** to predict a stud
 It's designed as a quick showcase of FastAPI + ML model integration.
 
 ---
+## Problem Statement
+
+The system takes input scores for:
+- **Maths** (0–75)
+- **Logical Reasoning** (0–75)
+- **English** (0–50)
+
+Each student is evaluated out of 200 total marks. If the **total score is below 50**, the student is **automatically disqualified**. The remaining qualified students are ranked using a machine learning model trained on synthetic data.
+
+---
 
 ## Features
 
-- FastAPI-powered REST endpoint
-- Input validation using Pydantic
-- Model inference using a pre-trained pickle model (`rank_model.pkl`)
-- Simple logic to disqualify students below a total score threshold
+- 🏁 **Rank Prediction**: Returns a predicted rank (1 being the best) based on input scores.
+- ✅ **Disqualification Logic**: Handles cutoff automatically (total score < 50).
+- 🛠️ **FastAPI Backend**: RESTful API interface for integration.
+- 📦 **Pickled ML Model**: Scikit-learn regression pipeline with preprocessing.
 
 ---
+
+## Model Details
+
+- **Algorithm**: Gradient Boosting Regressor  
+- **Preprocessing**: `StandardScaler` for numerical features  
+- **Target Variable**: Rank (lower is better)  
+- **Data**: Synthetic dataset with 5000 rows generated to simulate real scoring patterns.
+
+---
+
+
 
 ## Requirements
 
