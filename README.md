@@ -32,3 +32,16 @@ It's designed as a quick showcase of FastAPI + ML model integration.
 ```bash
 git clone https://github.com/Amaan-developpeur/fastapi-rank-predictor.git
 cd fastapi-rank-predictor
+
+```
+## Install Dependencies
+
+pip install -r requirements.txt
+
+
+## Run the Fast API app
+uvicorn main:app --reload
+```
+```
+## Visit API DOCS:
+Swagger UI: http://127.0.0.1:8000/docs
