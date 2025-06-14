@@ -1,4 +1,4 @@
-# 🎯 FastAPI Rank Prediction API
+# FastAPI Rank Prediction API
 
 This project demonstrates a simple API built using **FastAPI** to predict a student's rank based on their scores in Maths, Logical Reasoning, and English.
 
@@ -6,7 +6,7 @@ It's designed as a quick showcase of FastAPI + ML model integration.
 
 ---
 
-## 🚀 Features
+## Features
 
 - FastAPI-powered REST endpoint
 - Input validation using Pydantic
@@ -15,7 +15,7 @@ It's designed as a quick showcase of FastAPI + ML model integration.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - FastAPI
@@ -25,9 +25,9 @@ It's designed as a quick showcase of FastAPI + ML model integration.
 
 ---
 
-## 🔧 Setup & Run
+## Setup & Run
 
-### 1️⃣ Clone the repo
+### Clone the repo
 
 ```bash
 git clone https://github.com/Amaan-developpeur/fastapi-rank-predictor.git
