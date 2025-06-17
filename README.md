@@ -18,10 +18,10 @@ Each student is evaluated out of 200 total marks. If the **total score is below 
 
 ## Features
 
-- 🏁 **Rank Prediction**: Returns a predicted rank (1 being the best) based on input scores.
-- ✅ **Disqualification Logic**: Handles cutoff automatically (total score < 50).
-- 🛠️ **FastAPI Backend**: RESTful API interface for integration.
-- 📦 **Pickled ML Model**: Scikit-learn regression pipeline with preprocessing.
+- **Rank Prediction**: Returns a predicted rank (1 being the best) based on input scores.
+- **Disqualification Logic**: Handles cutoff automatically (total score < 50).
+- 🛠**FastAPI Backend**: RESTful API interface for integration.
+- **Pickled ML Model**: Scikit-learn regression pipeline with preprocessing.
 
 ---
 
